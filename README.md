@@ -4,6 +4,7 @@ Assistente inteligente que permite colaboradores da **TechCorp** consultarem inf
 
 - **Demo:** [corppilot.vercel.app](https://corppilot.vercel.app)
 - **Repositório:** [github.com/bsantana/corppilot](https://github.com/bsantana/corppilot)
+- **Vídeo pitch:** [youtu.be/3ofFmVhoClQ](https://youtu.be/3ofFmVhoClQ)
 
 ## Screenshots
 

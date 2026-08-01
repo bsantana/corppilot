@@ -36,15 +36,16 @@
 
 ### 3. Vídeo Pitch (até 4 minutos)
 
-- [ ] Problema proposto (0:00–0:45)
-- [ ] Solução desenvolvida (0:45–1:30)
-- [ ] Demonstração da aplicação (1:30–2:45)
-- [ ] Como a IA foi usada no desenvolvimento (2:45–3:30)
-- [ ] Desafios e aprendizados (3:30–4:00)
-- [ ] Publicado no YouTube/Loom/Drive
-- [ ] Link testado e acessível
+- [x] Problema proposto (0:00–0:45)
+- [x] Solução desenvolvida (0:45–1:30)
+- [x] Demonstração da aplicação (1:30–2:45)
+- [x] Como a IA foi usada no desenvolvimento (2:45–3:30)
+- [x] Desafios e aprendizados (3:30–4:00)
+- [x] Publicado no YouTube/Drive
+- [x] Link testado e acessível
 
-> Roteiro pronto em [`entrega/3-video-pitch/ROTEIRO.md`](../entrega/3-video-pitch/ROTEIRO.md)
+> **YouTube:** https://youtu.be/3ofFmVhoClQ  
+> **Backup Drive:** https://drive.google.com/file/d/1J-NFP-rJN7Bv_s3acKb1KZbwKLAGSXtz/view?usp=sharing
 
 ## Screenshots
 
@@ -81,4 +82,4 @@ Disponíveis em `public/screenshots/`:
 | Deploy | ✅ Concluído — corppilot.vercel.app |
 | Documento teórico (PDF) | ✅ Concluído |
 | Screenshots e evidências | ✅ Concluído |
-| Vídeo pitch | ⏳ Pendente (roteiro pronto) |
+| Vídeo pitch | ✅ Concluído — [YouTube](https://youtu.be/3ofFmVhoClQ) |

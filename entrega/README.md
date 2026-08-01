@@ -14,7 +14,7 @@ entrega/
 │   └── link-github.txt                ← https://github.com/bsantana/corppilot
 └── 3-video-pitch/
     ├── ROTEIRO.md                     ← Roteiro completo do vídeo
-    └── link-video.txt                 ← Cole o link após gravar
+    └── link-video.txt                 ← YouTube + backup Drive
 ```
 
 ## Status dos Entregáveis
@@ -23,15 +23,17 @@ entrega/
 |------------|--------|
 | Parte Teórica (PDF) | ✅ Pronto |
 | Parte Prática (app + README) | ✅ Pronto |
-| Vídeo Pitch | ⏳ Grave seguindo `3-video-pitch/ROTEIRO.md` |
+| Vídeo Pitch | ✅ Pronto |
 
 ## Links
 
 - **Aplicação:** https://corppilot.vercel.app
 - **GitHub:** https://github.com/bsantana/corppilot
+- **Vídeo (YouTube):** https://youtu.be/3ofFmVhoClQ
+- **Vídeo (backup Drive):** https://drive.google.com/file/d/1J-NFP-rJN7Bv_s3acKb1KZbwKLAGSXtz/view?usp=sharing
 - **Screenshots:** `public/screenshots/`
 - **Evidências de IA:** `docs/evidencias-ia/`
 
-## Último passo
+## Entrega completa ✅
 
-Grave o vídeo pitch (até 4 min) seguindo o roteiro em `3-video-pitch/ROTEIRO.md`, publique e cole o link em `3-video-pitch/link-video.txt`.
+Todos os 3 entregáveis estão prontos.
