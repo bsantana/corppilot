@@ -23,7 +23,7 @@
 - [ ] Consulta em linguagem natural funcionando
 - [ ] Base de conhecimento com 9 documentos
 - [ ] Evidências do uso de IA no desenvolvimento (`docs/evidencias-ia/`)
-- [ ] IA como funcionalidade principal (OpenAI GPT-4o-mini)
+- [ ] IA como funcionalidade principal (Google Gemini 3.1 Flash-Lite)
 - [ ] README.md completo com prints
 
 #### Diferenciais Implementados
@@ -50,7 +50,7 @@
 0:00 - "Empresas possuem centenas de documentos internos..."
 0:45 - "Apresento o CorpPilot, um copiloto corporativo..."
 1:30 - [Demo ao vivo] "Vou perguntar sobre a política de férias..."
-2:45 - "Usei o Cursor para gerar componentes, a OpenAI API..."
+2:45 - "Usei o Cursor para gerar componentes, a API do Google Gemini..."
 3:30 - "O maior desafio foi... Aprendi que..."
 4:00 - "Obrigado! Link na descrição."
 ```
@@ -92,7 +92,7 @@ Salve em `public/screenshots/`:
 2. Acesse [vercel.com](https://vercel.com) → Import Project → selecione o repo
 
 3. Configure Environment Variables:
-   - `OPENAI_API_KEY` = sua chave OpenAI
+   - `GEMINI_API_KEY` = sua chave Gemini
 
 4. Deploy → copie o link e atualize o README
 

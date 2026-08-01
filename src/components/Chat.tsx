@@ -129,7 +129,7 @@ export function Chat() {
     setIsLoading(true);
 
     try {
-      const history = updatedMessages
+      const history = conv.messages
         .filter((m) => m.role === "user" || m.role === "assistant")
         .slice(-6)
         .map((m) => ({ role: m.role, content: m.content }));

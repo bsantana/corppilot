@@ -2,6 +2,8 @@
 
 Assistente inteligente que permite colaboradores da **TechCorp** consultarem informações corporativas em linguagem natural.
 
+Repositório: [github.com/bsantana/corppilot](https://github.com/bsantana/corppilot)
+
 ## Demo
 
 🔗 [Acesse a aplicação](https://seu-link.vercel.app) *(atualize após deploy)*
@@ -21,7 +23,7 @@ Assistente inteligente que permite colaboradores da **TechCorp** consultarem inf
 - **Next.js 16** — Framework React com App Router
 - **TypeScript** — Tipagem estática
 - **Tailwind CSS 4** — Estilização
-- **OpenAI GPT-4o-mini** — Modelo de linguagem (funcionalidade principal)
+- **Google Gemini 3.1 Flash-Lite** — Modelo de linguagem (funcionalidade principal)
 - **Vercel** — Deploy e hospedagem
 
 ## Ferramentas de IA no Desenvolvimento
@@ -29,7 +31,7 @@ Assistente inteligente que permite colaboradores da **TechCorp** consultarem inf
 | Ferramenta | Uso no Projeto |
 |------------|----------------|
 | **Cursor** | Geração de componentes, API routes, base de conhecimento, documentação |
-| **OpenAI API** | Funcionalidade principal do produto (chat com RAG) |
+| **Google Gemini API** | Funcionalidade principal do produto (chat com RAG) |
 | **ChatGPT/Claude** | Criação dos documentos corporativos simulados |
 
 Evidências de uso de IA durante o desenvolvimento estão em [`docs/evidencias-ia/`](./docs/evidencias-ia/).
@@ -47,16 +49,16 @@ Evidências de uso de IA durante o desenvolvimento estão em [`docs/evidencias-i
 ## Como Executar Localmente
 
 ```bash
-git clone https://github.com/seu-usuario/trabalho-ia
+git clone https://github.com/bsantana/corppilot
 cd trabalho-ia
 npm install
 cp .env.example .env.local
 ```
 
-Edite `.env.local` e adicione sua `OPENAI_API_KEY`:
+Edite `.env.local` e adicione sua `GEMINI_API_KEY`:
 
 ```
-OPENAI_API_KEY=sk-sua-chave-aqui
+GEMINI_API_KEY=sua-chave-aqui
 ```
 
 Inicie o servidor de desenvolvimento:
@@ -107,7 +109,7 @@ trabalho-ia/
 │   │   ├── Sidebar.tsx
 │   │   └── SourceCitation.tsx
 │   └── lib/
-│       ├── ai.ts                    # Cliente OpenAI
+│       ├── ai.ts                    # Cliente Gemini
 │       ├── knowledge-base.ts        # Carrega e busca documentos
 │       └── types.ts
 ├── docs/                            # Base de conhecimento + documentação
@@ -119,7 +121,7 @@ trabalho-ia/
 
 1. Faça push para o GitHub
 2. Conecte o repositório na [Vercel](https://vercel.com)
-3. Configure a variável de ambiente `OPENAI_API_KEY`
+3. Configure a variável de ambiente `GEMINI_API_KEY`
 4. Deploy automático a cada push
 
 ## Documentação de Entrega
@@ -130,4 +132,4 @@ trabalho-ia/
 
 ## Autor
 
-[Nome do Aluno] — IA Generativa Aplicada ao Desenvolvimento
+Bruno Santana — IA Generativa Aplicada ao Desenvolvimento

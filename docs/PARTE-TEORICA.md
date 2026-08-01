@@ -24,7 +24,7 @@ O **CorpPilot** é um copiloto corporativo inteligente que permite colaboradores
 
 #### Arquitetura
 
-A aplicação foi construída com Next.js 16 (React + TypeScript) e utiliza a API da OpenAI (GPT-4o-mini) como motor de IA. A base de conhecimento consiste em 9 documentos markdown organizados por categorias (RH, Financeiro, TI e Operações).
+A aplicação foi construída com Next.js 16 (React + TypeScript) e utiliza a API do Google Gemini (3.1 Flash-Lite) como motor de IA. A base de conhecimento consiste em 9 documentos markdown organizados por categorias (RH, Financeiro, TI e Operações).
 
 O fluxo funciona assim:
 1. O colaborador faz uma pergunta no chat
@@ -51,7 +51,7 @@ O fluxo funciona assim:
 | Ferramenta | Uso no Projeto | Link |
 |------------|---------------|------|
 | **Cursor** | Desenvolvimento assistido: geração de componentes, API routes, lógica de negócio | [cursor.com](https://cursor.com) |
-| **OpenAI API** | Funcionalidade principal: chat com contexto de documentos | [platform.openai.com](https://platform.openai.com) |
+| **Google Gemini API** | Funcionalidade principal: chat com contexto de documentos | [ai.google.dev](https://ai.google.dev) |
 | **ChatGPT** | Criação da base de conhecimento e engenharia de prompts | [chat.openai.com](https://chat.openai.com) |
 
 #### Exemplo de Solução Existente no Mercado
@@ -162,7 +162,7 @@ Embora não utilize um framework de agentes (como LangChain Agents), o CorpPilot
 - Lovable — https://lovable.dev
 - GitHub Copilot — https://github.com/features/copilot
 - Model Context Protocol — https://modelcontextprotocol.io
-- OpenAI Documentation — https://platform.openai.com/docs
+- Google AI Documentation — https://ai.google.dev
 - OWASP Top 10 for LLM — https://owasp.org/www-project-top-10-for-large-language-model-applications/
 - Glean (solução de mercado) — https://www.glean.com
 - McKinsey — Knowledge Worker Productivity Research
