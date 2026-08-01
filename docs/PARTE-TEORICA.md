@@ -111,6 +111,21 @@ A maior parte do código foi gerada com assistência do Cursor em modo Agent. Ex
 
 Evidências detalhadas em `docs/evidencias-ia/DESENVOLVIMENTO.md`.
 
+### Prints reais do Cursor (evidências visuais)
+
+Durante o desenvolvimento, foram capturados screenshots da interface do Cursor com as conversas reais:
+
+| Print | O que mostra |
+|-------|-------------|
+| `cursor-real-01-visao-geral.png` | Visão geral do projeto e funcionalidades geradas |
+| `cursor-real-02-migracao-gemini.png` | Diff da migração OpenAI → Gemini |
+| `cursor-real-03-erro-quota-gemini.png` | Erro de quota e modelos descontinuados |
+| `cursor-real-04-modelos-disponiveis.png` | Pesquisa de modelos na documentação Google |
+| `cursor-real-05-bug-historico.png` | Correção do bug de histórico do chat |
+| `cursor-real-06-fluxo-rag.png` | Diagrama do fluxo RAG explicado pela IA |
+
+Todos disponíveis em `docs/evidencias-ia/` no repositório GitHub.
+
 ### Migração e Desafios com Modelos de IA
 
 Durante o desenvolvimento, enfrentamos desafios reais com APIs de IA:

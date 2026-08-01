@@ -123,7 +123,18 @@ Aplicação publicada e funcional. Screenshot em `resultado-final.png`.
 
 ## 9. Prints das Conversas com Cursor
 
-Evidências visuais das interações com o Cursor durante o desenvolvimento:
+### Prints reais (capturados durante o desenvolvimento)
+
+| Print | Etapa |
+|-------|-------|
+| `cursor-real-01-visao-geral.png` | Visão geral do projeto e funcionalidades |
+| `cursor-real-02-migracao-gemini.png` | Migração OpenAI → Gemini com diff |
+| `cursor-real-03-erro-quota-gemini.png` | Erro de quota gemini-2.0-flash |
+| `cursor-real-04-modelos-disponiveis.png` | Modelos disponíveis na doc Google |
+| `cursor-real-05-bug-historico.png` | Correção do bug de histórico |
+| `cursor-real-06-fluxo-rag.png` | Explicação do fluxo RAG |
+
+### Prints complementares (histórico reconstruído)
 
 | Print | Etapa |
 |-------|-------|
@@ -140,8 +151,9 @@ Evidências visuais das interações com o Cursor durante o desenvolvimento:
 | Arquivo | Descrição |
 |---------|-----------|
 | `resultado-final.png` | Aplicação em produção no corppilot.vercel.app |
-| `cursor-01-planejamento.png` | Conversa Cursor — planejamento |
-| `cursor-02-implementacao.png` | Conversa Cursor — implementação |
-| `cursor-03-migracao-gemini.png` | Conversa Cursor — migração Gemini |
-| `cursor-04-debug-modelos.png` | Conversa Cursor — debug de modelos |
-| `cursor-05-deploy-documentacao.png` | Conversa Cursor — deploy e docs |
+| `cursor-real-01-visao-geral.png` | Print real — visão geral do projeto |
+| `cursor-real-02-migracao-gemini.png` | Print real — migração Gemini |
+| `cursor-real-03-erro-quota-gemini.png` | Print real — erro de quota |
+| `cursor-real-04-modelos-disponiveis.png` | Print real — modelos disponíveis |
+| `cursor-real-05-bug-historico.png` | Print real — bug de histórico |
+| `cursor-real-06-fluxo-rag.png` | Print real — fluxo RAG |
