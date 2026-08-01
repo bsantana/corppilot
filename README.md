@@ -1,36 +1,133 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CorpPilot — Copiloto Corporativo com IA
 
-## Getting Started
+Assistente inteligente que permite colaboradores da **TechCorp** consultarem informações corporativas em linguagem natural.
 
-First, run the development server:
+## Demo
+
+🔗 [Acesse a aplicação](https://seu-link.vercel.app) *(atualize após deploy)*
+
+## Screenshots
+
+> Adicione screenshots em `public/screenshots/` após testar a aplicação.
+
+| Tela | Descrição |
+|------|-----------|
+| `chat.png` | Interface principal do chat |
+| `resposta.png` | Resposta com citação de fontes |
+| `sidebar.png` | Sidebar com categorias e histórico |
+
+## Tecnologias
+
+- **Next.js 16** — Framework React com App Router
+- **TypeScript** — Tipagem estática
+- **Tailwind CSS 4** — Estilização
+- **OpenAI GPT-4o-mini** — Modelo de linguagem (funcionalidade principal)
+- **Vercel** — Deploy e hospedagem
+
+## Ferramentas de IA no Desenvolvimento
+
+| Ferramenta | Uso no Projeto |
+|------------|----------------|
+| **Cursor** | Geração de componentes, API routes, base de conhecimento, documentação |
+| **OpenAI API** | Funcionalidade principal do produto (chat com RAG) |
+| **ChatGPT/Claude** | Criação dos documentos corporativos simulados |
+
+Evidências de uso de IA durante o desenvolvimento estão em [`docs/evidencias-ia/`](./docs/evidencias-ia/).
+
+## Funcionalidades
+
+- ✅ Chat em linguagem natural
+- ✅ Base de conhecimento com 9 documentos corporativos (RH, Financeiro, TI, Operações)
+- ✅ Citação de fontes nas respostas
+- ✅ Histórico de conversas (localStorage)
+- ✅ Categorias de documentos com perguntas sugeridas
+- ✅ API de resumo de documentos
+- ✅ Busca semântica simples por relevância
+
+## Como Executar Localmente
+
+```bash
+git clone https://github.com/seu-usuario/trabalho-ia
+cd trabalho-ia
+npm install
+cp .env.example .env.local
+```
+
+Edite `.env.local` e adicione sua `OPENAI_API_KEY`:
+
+```
+OPENAI_API_KEY=sk-sua-chave-aqui
+```
+
+Inicie o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Base de Conhecimento
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Documentos fictícios da empresa **TechCorp** em `/docs`:
 
-## Learn More
+```
+docs/
+├── rh/
+│   ├── politica-ferias.md
+│   ├── beneficios.md
+│   └── codigo-conduta.md
+├── financeiro/
+│   ├── reembolso-despesas.md
+│   └── politica-viagens.md
+├── ti/
+│   ├── acesso-sistemas.md
+│   └── seguranca-informacao.md
+└── operacoes/
+    ├── onboarding.md
+    └── procedimentos-gerais.md
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Estrutura do Projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+trabalho-ia/
+├── src/
+│   ├── app/
+│   │   ├── api/
+│   │   │   ├── chat/route.ts        # Endpoint do chat com IA
+│   │   │   ├── documents/route.ts   # Lista documentos
+│   │   │   └── summarize/route.ts   # Resumo de documentos
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   └── globals.css
+│   ├── components/
+│   │   ├── Chat.tsx
+│   │   ├── MessageBubble.tsx
+│   │   ├── Sidebar.tsx
+│   │   └── SourceCitation.tsx
+│   └── lib/
+│       ├── ai.ts                    # Cliente OpenAI
+│       ├── knowledge-base.ts        # Carrega e busca documentos
+│       └── types.ts
+├── docs/                            # Base de conhecimento + documentação
+├── public/screenshots/              # Prints para entrega
+└── .env.example
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deploy (Vercel)
 
-## Deploy on Vercel
+1. Faça push para o GitHub
+2. Conecte o repositório na [Vercel](https://vercel.com)
+3. Configure a variável de ambiente `OPENAI_API_KEY`
+4. Deploy automático a cada push
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Documentação de Entrega
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [`docs/SPECS.md`](./docs/SPECS.md) — Especificação técnica da aplicação
+- [`docs/ENTREGA.md`](./docs/ENTREGA.md) — Checklist completo de entrega
+- [`docs/PARTE-TEORICA.md`](./docs/PARTE-TEORICA.md) — Template do documento teórico
+
+## Autor
+
+[Nome do Aluno] — IA Generativa Aplicada ao Desenvolvimento
