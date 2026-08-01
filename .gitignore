@@ -37,6 +37,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# temp evidence generation
+.tmp-evidence/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

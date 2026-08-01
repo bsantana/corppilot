@@ -22,7 +22,7 @@
 - [x] Interface funcional com chat
 - [x] Consulta em linguagem natural funcionando
 - [x] Base de conhecimento com 9 documentos
-- [x] Evidências do uso de IA (`docs/evidencias-ia/`)
+- [x] Evidências do uso de IA (`docs/evidencias-ia/`) — 6 prints do Cursor
 - [x] IA como funcionalidade principal (Google Gemini 3.1 Flash-Lite)
 - [x] README.md completo com prints
 
@@ -64,6 +64,11 @@ Disponíveis em `public/screenshots/`:
 |---------|--------|
 | `docs/evidencias-ia/DESENVOLVIMENTO.md` | ✅ |
 | `docs/evidencias-ia/resultado-final.png` | ✅ |
+| `docs/evidencias-ia/cursor-01-planejamento.png` | ✅ |
+| `docs/evidencias-ia/cursor-02-implementacao.png` | ✅ |
+| `docs/evidencias-ia/cursor-03-migracao-gemini.png` | ✅ |
+| `docs/evidencias-ia/cursor-04-debug-modelos.png` | ✅ |
+| `docs/evidencias-ia/cursor-05-deploy-documentacao.png` | ✅ |
 
 ## Prazos
 

@@ -121,11 +121,27 @@ Aplicação publicada e funcional. Screenshot em `resultado-final.png`.
 
 ---
 
+## 9. Prints das Conversas com Cursor
+
+Evidências visuais das interações com o Cursor durante o desenvolvimento:
+
+| Print | Etapa |
+|-------|-------|
+| `cursor-01-planejamento.png` | Leitura do PDF e criação das specs |
+| `cursor-02-implementacao.png` | Geração do código e base de conhecimento |
+| `cursor-03-migracao-gemini.png` | Migração OpenAI → Gemini |
+| `cursor-04-debug-modelos.png` | Resolução de erros de quota e modelos |
+| `cursor-05-deploy-documentacao.png` | GitHub, Vercel e entrega final |
+
+---
+
 ## Arquivos de Evidência Visual
 
 | Arquivo | Descrição |
 |---------|-----------|
 | `resultado-final.png` | Aplicação em produção no corppilot.vercel.app |
-| `../public/screenshots/chat.png` | Tela inicial |
-| `../public/screenshots/resposta.png` | Resposta com fontes |
-| `../public/screenshots/sidebar.png` | Sidebar com categorias |
+| `cursor-01-planejamento.png` | Conversa Cursor — planejamento |
+| `cursor-02-implementacao.png` | Conversa Cursor — implementação |
+| `cursor-03-migracao-gemini.png` | Conversa Cursor — migração Gemini |
+| `cursor-04-debug-modelos.png` | Conversa Cursor — debug de modelos |
+| `cursor-05-deploy-documentacao.png` | Conversa Cursor — deploy e docs |
